@@ -12,15 +12,12 @@ import { CommonModule } from '@angular/common';
 })
 export class MasterComponent {
 currentComponent: string = ""
-Roles: string = ""
-Designation: string = ""
+class: string = ""
   divFunction = (val:string) => {
     this.currentComponent = val
-    this.Roles = val
-    this.Designation = val
   }
-
   testFunction = () => {
     console.log("Hello World")
   }
 }
+

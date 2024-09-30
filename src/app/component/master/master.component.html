@@ -1,10 +1,10 @@
 
 
 <div class="container">
-    <button (click)="divFunction('Roles')" [class]="Roles">
+    <button (click)="divFunction('Roles')" [ngClass]="currentComponent == 'Roles' ?  'Selected' : 'Test'">
         Roles
     </button>
-    <button (click)="divFunction('Designation')" [class]="Designation">
+    <button (click)="divFunction('Designation')"  [ngClass]="currentComponent == 'Designation' ?  'Selected' : 'Test'">
         Designation
     </button>
 </div>

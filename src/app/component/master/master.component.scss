@@ -1,7 +1,7 @@
 
 
 .container {
-    button {
+    .Test {
         margin-inline: 0.625rem;
         border: none;
         border-radius: 0.625rem;
@@ -11,10 +11,16 @@
         cursor: pointer;
     }
 
-    .Roles {
-        background: yellow;
+
+    .Selected {
+        margin-inline: 0.625rem;
+        border: none;
+        border-radius: 0.625rem;
+        padding: 0.7rem;
+        background-color: rgb(227, 145, 64);
+        color: #ffff;
+        cursor: pointer;
     }
-    .Designation { 
-        background-color: red;
-    }
+
+   
 }

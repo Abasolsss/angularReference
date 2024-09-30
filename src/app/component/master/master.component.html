@@ -1,0 +1,19 @@
+
+
+<div class="container">
+    <button (click)="divFunction('Roles')" [class]="Roles">
+        Roles
+    </button>
+    <button (click)="divFunction('Designation')" [class]="Designation">
+        Designation
+    </button>
+</div>
+
+<div class="otherComponents">
+    <div class="roles" *ngIf="currentComponent == 'Roles'">
+        <app-roles></app-roles>
+    </div>
+    <div class="designation" *ngIf="currentComponent == 'Designation'">
+        <app-designation></app-designation>
+    </div>
+</div>

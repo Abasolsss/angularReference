@@ -1,0 +1,9 @@
+.container {
+    background-color: yellow;
+    &__anotherContainer {
+        h1 {
+            font-size: 2rem;
+            color: red;
+        }
+    }
+}

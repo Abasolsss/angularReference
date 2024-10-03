@@ -16,8 +16,6 @@ class: string = ""
   divFunction = (val:string) => {
     this.currentComponent = val
   }
-  testFunction = () => {
-    console.log("Hello World")
-  }
+
 }
 

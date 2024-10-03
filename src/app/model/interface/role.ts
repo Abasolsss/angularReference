@@ -47,3 +47,7 @@ export interface Iweather {
         speed: number
     }
 }
+
+export interface IkanyeWest {
+    quote: string
+}

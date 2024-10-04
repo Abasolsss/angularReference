@@ -48,6 +48,6 @@ export interface Iweather {
     }
 }
 
-export interface IkanyeWest {
-    quote: string
+export interface kanyeRest {
+    quote: string;
 }

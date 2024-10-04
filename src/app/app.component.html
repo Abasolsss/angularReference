@@ -1,3 +1,29 @@
-<app-master></app-master>
-<app-roles></app-roles>
 
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a routerLink="/master" routerLinkActive="active">Home</a>
+            </li>
+            <li>
+                <a [routerLink]="'/employee'" routerLinkActive="active">Employee</a>
+            </li>
+            <li>
+                <a [routerLink]="'/client'" routerLinkActive="active">Client</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<router-outlet></router-outlet>
+
+<!-- 
+controlflow
+directive
+data binding 
+Routes
+routeroutlet
+routerLink
+routerLinkActive
+-->
